@@ -1,0 +1,77 @@
+.customnavbar{
+    background-color:#151515 ;
+}
+.undernavbar{
+    background-color: #FFD700;
+    
+}
+/* text in nav bar*/
+.brand{
+    color:#FFD700;
+    font-family: 'Lobster', cursive;
+    margin-left: 5%;
+}
+/*title bg color*/
+.bgcolor{
+    background-color:#C7C7C7 ;
+}
+/* title page text*/
+.iamrishi{
+    font-family: 'Great Vibes', cursive;
+    padding: 20% 0 0 0;
+    font-size: 500%;
+}
+.details{
+    top: 5%;
+    position: relative;
+    
+}
+.thebutt{
+    position: relative;
+}
+.titleimage{
+    width: 100%;
+    height:200%;
+}
+.socials{
+    font-family: 'Courier New';
+    font-size:150%;
+}
+/*plugins*/
+.card{
+    top: 15%;
+    position: relative;
+    overflow: hidden;
+    background-color:#C7C7C7 ;
+    width: 100%;
+}
+.card:before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background:#FFD700 ;
+    top:-50%;
+    left:-100%;
+    z-index:1;
+    transform: rotate(25deg);
+    transform-origin: center top 0 ;
+    transition: .5s;
+
+}
+.card:hover:before{
+    left: 10%;
+}
+.card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: black;
+    left: 0;
+    z-index: 2;
+    transition: .5s;
+}
+.card:hover .card-text{
+    top:80px;
+}
